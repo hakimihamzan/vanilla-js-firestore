@@ -3,6 +3,8 @@ import { db } from "./firestore-me.js";
 
 const modalWrapper = document.querySelector(".modal-wrapper");
 
+
+
 // add user modal popup
 const addModal = document.querySelector(".add-modal");
 const addModalForm = document.querySelector(".add-modal .form");
@@ -109,3 +111,5 @@ addModalForm.addEventListener("submit", (event) => {
 // await updateDoc(washingtonRef, {
 //   capital: true
 // });
+
+console.log(${{ secrets.REACT_APP_KIMI }});
