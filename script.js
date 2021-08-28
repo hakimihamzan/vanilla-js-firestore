@@ -112,4 +112,4 @@ addModalForm.addEventListener("submit", (event) => {
 //   capital: true
 // });
 
-console.log(${{ secrets.REACT_APP_KIMI }});
+console.log({{ secrets.REACT_APP_KIMI }});
